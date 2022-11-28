@@ -194,6 +194,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="97dp"
+        android:onClick="btnEnviar"
         android:text="Enviar" />
 
     <RadioGroup
@@ -205,7 +206,7 @@
         android:layout_marginBottom="293dp" >
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/rdbFemenino"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -213,7 +214,7 @@
             android:text="Femenino" />
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/rdbMasculino"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
