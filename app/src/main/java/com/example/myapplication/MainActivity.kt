@@ -30,9 +30,11 @@ class MainActivity : AppCompatActivity() {
         b.putString("Num_Id", num_id?.text.toString())
         b.putString("Nombres", nombres?.text.toString())
         b.putString("Apellidos", apellidos?.text.toString())
-        b.putString("Fechanac", fechaNace?.text.toString())
-        b.putString("Masculino", masculino?.text.toString())
+        b.putString("Fechanace", fechaNace?.text.toString())
+        b.putString("Ciudad", ciudad?.text.toString())
         b.putString("Femenino", femenino?.text.toString())
+        b.putString("Masculino", masculino?.text.toString())
+        b.putString("Correo", correo?.text.toString())
         b.putString("Telefono", telefono?.text.toString())
 
         intent.putExtras(b)
